@@ -1,0 +1,155 @@
+body {
+
+    background-color:whitesmoke;
+    margin:0;
+    }
+    
+    #header {
+    
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    background-color:#84eaa2;
+    align-items:center;
+    max-width:1200px;
+    height:85px;
+    margin:0 auto;
+    
+    
+    
+    }
+    
+    img {
+    height:85px;
+    width:150px;
+    }
+    
+    #nav {
+    box-sizing:border-box;
+    background-color:rgba(60,60,60,0.5);
+    font-size:18px;
+    
+    }
+    
+    #nav ul
+    {
+    
+    display:flex;
+    
+    }
+    
+    #nav ul li
+    {
+    list-style-type:none;
+    margin:20px;
+    
+    }
+    
+    #main {
+    display:grid;
+    max-width:1200px;
+    margin:0 auto;
+    grid-template-columns:300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    }
+    
+    #main_content {
+    background-color: pink;
+    text-align:center;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:3;
+    }
+    
+    #blog {
+    background-color: #d34490;
+    padding:10px 0px 0px 10px;
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end:3;
+    }
+    
+    .content_h2 {
+    margin:0 0 20px;
+    font-size:50px;
+    color:white;
+    font-family:"oswald_medium",sans-serif;
+    }
+    
+    .content_h3 {
+    margin:0 0 20px;
+    font-size:20px;
+    color:white;
+    font-family:"oswald_medium";
+    }
+    
+    #about {
+    padding:10px 0px 0px 10px;
+    background-color:#d34444;
+    }
+    
+    #staff {
+    padding:10px 0px 0px 10px;
+    background-color:#877878;
+    }
+    
+    #work {
+    padding:10px 0px 0px 10px;
+    background-color: #8cd344;
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:3;
+    grid-row-end:5;
+    }
+    
+    #news {
+    padding:10px 0px 0px 10px;
+    background-color: #8c44d3;
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:4;
+    }
+    
+    #service {
+    padding:10px 0px 0px 10px;
+    background-color: #44d3d3;
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:4;
+    grid-row-end:5;
+    }
+    
+    #map {
+    background-color: cyan;
+    text-align: center;
+    grid-column-start:1;
+    grid-column-end:5;
+    grid-row-start:5;
+    grid-row-end:6;
+    }
+    
+    #footer {
+    display:flex;
+    max-width:1200px;
+    margin:0 auto;
+    justify-content:space-between;
+    background-color:darkgray;
+    }
+    
+    #footer_nav ul {
+    display:flex;
+    text-align:center;
+    }
+    
+    #footer_nav ul li {
+    text-decoration: none;
+    list-style-type:none;
+    margin:15px;
+    }
+    
+    p {
+    margin:30px 10px 0 0;
+    }
