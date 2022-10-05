@@ -4,8 +4,7 @@ body {
     margin: 0;
 }
 
-#header {
-
+header {
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -14,9 +13,6 @@ body {
     max-width: 1200px;
     height: 85px;
     margin: 0 auto;
-
-
-
 }
 
 img {
@@ -24,26 +20,26 @@ img {
     width: 150px;
 }
 
-#nav {
+nav {
     box-sizing: border-box;
     background-color: rgba(60, 60, 60, 0.5);
     font-size: 18px;
 
 }
 
-#nav ul {
+nav ul {
 
     display: flex;
 
 }
 
-#nav ul li {
+nav ul li {
     list-style-type: none;
     margin: 20px;
 
 }
 
-#main {
+main {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
@@ -51,7 +47,7 @@ img {
     grid-template-rows: 300px 300px 300px 300px 300px;
 }
 
-#main_content {
+.main_content {
     background-color: pink;
     text-align: center;
     grid-column-start: 1;
@@ -59,8 +55,15 @@ img {
     grid-row-start: 1;
     grid-row-end: 3;
 }
+strong {
+    margin: 30px 10px 0 0;
+    margin: 0 0 20px;
+    font-size: 50px;
+    color: rgb(128, 74, 228);
+    font-family: "oswald_medium", sans-serif;
+}
 
-#blog {
+.blog {
     background-color: #d34490;
     padding: 10px 0px 0px 10px;
     grid-column-start: 4;
@@ -69,31 +72,31 @@ img {
     grid-row-end: 3;
 }
 
-.content_h2 {
+h2 {
     margin: 0 0 20px;
     font-size: 50px;
     color: white;
     font-family: "oswald_medium", sans-serif;
 }
 
-.content_h3 {
+h3 {
     margin: 0 0 20px;
     font-size: 20px;
     color: white;
     font-family: "oswald_medium";
 }
 
-#about {
+.about {
     padding: 10px 0px 0px 10px;
     background-color: #d34444;
 }
 
-#staff {
+.staff {
     padding: 10px 0px 0px 10px;
     background-color: #877878;
 }
 
-#work {
+.work {
     padding: 10px 0px 0px 10px;
     background-color: #8cd344;
     grid-column-start: 1;
@@ -102,7 +105,7 @@ img {
     grid-row-end: 5;
 }
 
-#news {
+.news {
     padding: 10px 0px 0px 10px;
     background-color: #8c44d3;
     grid-column-start: 2;
@@ -111,7 +114,7 @@ img {
     grid-row-end: 4;
 }
 
-#service {
+.service {
     padding: 10px 0px 0px 10px;
     background-color: #44d3d3;
     grid-column-start: 3;
@@ -120,7 +123,7 @@ img {
     grid-row-end: 5;
 }
 
-#map {
+.map {
     background-color: cyan;
     text-align: center;
     grid-column-start: 1;
@@ -129,7 +132,7 @@ img {
     grid-row-end: 6;
 }
 
-#footer {
+footer {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
@@ -137,17 +140,17 @@ img {
     background-color: darkgray;
 }
 
-#footer_nav ul {
+.footer_nav ul {
     display: flex;
     text-align: center;
 }
 
-#footer_nav ul li {
+.footer_nav ul li {
     text-decoration: none;
     list-style-type: none;
     margin: 15px;
 }
 
-p {
-    margin: 30px 10px 0 0;
+span {
+padding-top: 35px;
 }
